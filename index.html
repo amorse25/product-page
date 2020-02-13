@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head> 
+        <meta charset="utf8" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+        <link rel="stylesheet" href="./index.css" />
+        <title> Xbox Series X </title>
+    </head>
+    <body> 
+        
+        <header>
+            <div class="logo-container">
+                <img class="logo-img" src="./logo.svg" alt="logo"> 
+            </div>
+            <nav> 
+                <ul class='nav-links'> 
+                    <li><a class='nav-link' href='#'> Specs </a></li>
+                    <li><a class='nav-link' href='#'> Products </a></li>
+                    <li><a class='nav-link' href='#'> About </a></li>
+                </ul>
+            </nav>
+            <div class="shopping-cart">
+                <img class="cart-img" src='./cart.svg' alt='cart'>
+            </div>
+        </header>
+
+        <main>
+            <section class="information">
+                <div class="intro"> 
+                    <div class="intro-text"> 
+                        <h1> Next Generation Console </h1>
+                        <p> 
+                            The future of consoles: The most powerful Xbox ever made
+                        </p>
+                    </div>
+                    <div class="cta"> 
+                        <button class="cta-button"> Series X </button>
+                        <button class="cta-add"> Add to Cart </button>
+                    </div>
+
+                    
+                </div>
+                <div class="cover">
+                    <div class="main-imgs"> 
+                        <img class="main-img" src="xbox.jpg" >
+                        <img class="main-img" src="xbox1.jpg" >
+                        <img class="main-img" src="xbox3.png" >
+                    </div>
+                    
+                    <div class="arrows"> 
+                        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    </div>   
+                    <br>
+
+                    <div class="dots">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                        <span class="dot" onclick="currentSlide(2)"></span>
+                        <span class="dot" onclick="currentSlide(3)"></span>
+                    </div> 
+
+                </div> 
+            </section>
+        </main> 
+        <script src="index.js"></script>
+    </body>
+</html>
